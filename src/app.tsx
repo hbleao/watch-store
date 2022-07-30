@@ -1,12 +1,9 @@
 import React from 'react';
+import "./index.css";
 
-import { Button } from '@/components';
+import { Home } from '@/pages';
 
 export const App = () => {
 
-  return (
-    <div>
-      <Button />
-    </div>
-  )
+  return <Home />
 }

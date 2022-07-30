@@ -1,5 +1,4 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const { merge } = require('webpack-merge');
 
@@ -12,6 +11,5 @@ module.exports = merge(common ,{
     new HtmlWebpackPlugin({
       template: './template/template.prod.html'
     }),
-    new CleanWebpackPlugin()
   ]
 })
